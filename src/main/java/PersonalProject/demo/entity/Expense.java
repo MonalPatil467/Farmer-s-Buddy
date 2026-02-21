@@ -24,7 +24,7 @@ public class Expense {
     @Enumerated(EnumType.STRING)
     ExpenseType expenseType;
 
-    @Column(nullable = false,precision = 10,scale = 2)
+    @Column(nullable = false,precision = 10)
      BigDecimal amount;
 
     @Column(nullable = false)

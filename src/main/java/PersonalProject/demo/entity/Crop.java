@@ -27,7 +27,7 @@ public class Crop {
     @Enumerated(EnumType.STRING)
     Season season;
 
-    @Column(nullable = false,precision = 10,scale = 2)
+    @Column(nullable = false,precision = 10)
     double landArea;
 
     @Column(nullable = false)
